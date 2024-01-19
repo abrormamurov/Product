@@ -1,0 +1,117 @@
+/* montserrat-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/montserrat-v26-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* fraunces-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/fraunces-v31-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* montserrat-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/montserrat-v26-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  color: #6c7289;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2eae2;
+}
+
+h2 {
+  font-family: "Fraunces", sans-serif;
+}
+
+.card {
+  background-color: #fff;
+  display: flex;
+  width: 600px;
+  border-radius: 10px;
+}
+
+.card__img {
+  border-radius: 10px 0 0 10px;
+}
+.card__content {
+  padding: 32px;
+}
+.card__label {
+  margin-bottom: 20px;
+  font-size: 12px;
+  letter-spacing: 5px;
+}
+.card__title {
+  color: #1c232b;
+  margin-bottom: 24px;
+  font-size: 32px;
+  line-height: 32px;
+}
+.card__description {
+  margin-bottom: 29px;
+}
+.card__prices {
+  display: flex;
+  gap: 19px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.card__big-prices {
+  color: #3d8168;
+  font-size: 32px;
+  line-height: 32px;
+}
+
+.card__mini-prices {
+  text-decoration: line-through;
+  font-style: 13px;
+}
+.card__btn {
+  background-color: #3d8168;
+  width: 236px;
+  height: 48px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  gap: 12px;
+  color: #ffff;
+}
